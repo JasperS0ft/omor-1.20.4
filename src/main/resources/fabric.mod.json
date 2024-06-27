@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "omormod",
+	"version": "${version}",
+	"name": "omor",
+	"description": "SUPER DUPER AWESOME SAUCE COOLIO MOD WITH FUNSIES AND BAFOONERY STUFF!!!",
+	"authors": [
+		"Jasper >:D",
+		"CALIDA",
+		"fish",
+		"charly",
+		"Finn",
+		"Kax",
+		"Sawi",
+		"Star",
+		"Alex"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/omor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sigmas.omor.Omor"
+		],
+		"client": [
+			"net.sigmas.omor.OmorClient"
+		],
+		"fabric-datagen": [
+			"net.sigmas.omor.OmorDataGenerator"
+		]
+	},
+	"mixins": [
+		"omor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
