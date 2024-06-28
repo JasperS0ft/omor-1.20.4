@@ -1,6 +1,7 @@
 package net.sigmas.omor.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.EntityType;
 import net.minecraft.item.*;
 /*import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -18,7 +19,7 @@ public class ModItems {
     public static final Item AUBREYBAT = registerItem("aubrey_bat", new AxeItem(ModToolMaterial.omor, 7, -3f, new FabricItemSettings().rarity(Rarity.EPIC)));
 
     public static final Item HECTOR = registerItem("hector",
-            new Hector(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.UNCOMMON)));
+            new Hector(HectorArmorMaterial.HECTOR, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.UNCOMMON)));
 
     /*private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(OMORIKNIFE);
