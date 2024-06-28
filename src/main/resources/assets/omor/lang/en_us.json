@@ -1,3 +1,12 @@
 {
-  "item.omormod.omori_knife": "Omori's knife"
+  "item.omor.omori_knife": "Omori's knife",
+  "item.omor.aubrey_bat": "Aubrey's Bat",
+  "item.omor.hector": "Hector",
+
+  "tooltip.omor.hector": "§7Kel's bestfriend Hector!!!",
+
+  "itemgroup.omor": "Omor",
+
+  "painting.omor.sillykelcar.title": "Silly Kel Car",
+  "painting.omor.sillykelcar.author": "Pinterest"
 }
