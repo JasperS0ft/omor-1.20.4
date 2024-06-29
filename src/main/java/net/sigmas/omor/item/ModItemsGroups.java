@@ -17,6 +17,7 @@ public static final ItemGroup OMOR_GROUP = Registry.register(Registries.ITEM_GRO
                 .icon(() -> new ItemStack(ModItems.OMORIKNIFE)).entries((displayContext, entries) -> {
                     entries.add(ModItems.OMORIKNIFE);
                     entries.add(ModItems.AUBREYBAT);
+                    entries.add(ModItems.KELBAL);
                     entries.add(ModItems.HECTOR);
 
                     final ItemStack SILLYCARKELPAINTING = new ItemStack(Items.PAINTING);

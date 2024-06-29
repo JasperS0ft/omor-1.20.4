@@ -2,8 +2,12 @@
   "item.omor.omori_knife": "Omori's knife",
   "item.omor.aubrey_bat": "Aubrey's Bat",
   "item.omor.hector": "Hector",
+  "item.omor.kel_ball": "Kel's Ball",
 
-  "tooltip.omor.hector": "§8§oKel's bestfriend Hector!!!",
+  "tooltip.omor.kel_ball": "§8§oPlayground-tested, child-approved.",
+  "tooltip.omor.hector": "§8§oCan talk, but is very shy.",
+  "tooltip.omor.omori_knife": "§8§oA shiny knife. You can see your reflection in the blade.",
+  "tooltip.omor.aubrey_bat": "§8§oAubrey's ultimate weapon.",
 
   "itemgroup.omor": "Omor",
 
